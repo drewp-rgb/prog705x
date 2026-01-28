@@ -25,6 +25,7 @@ public class l705x {
             int wordpos = Integer.parseInt(word.get(lcv).substring(3,4));
             String[] words = list.get(linepos - 1).split(" ");
             System.out.print(words[wordd-1].substring(wordpos-1, wordpos));
+
         }
     }
 }
