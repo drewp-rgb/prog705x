@@ -17,7 +17,6 @@ public class l705x {
             list.add(input2.nextLine());
 
         }
-
         for(int lcv = 0;lcv < word.size();lcv++)
         {
             int linepos = Integer.parseInt(word.get(lcv).substring(0,2));
